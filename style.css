@@ -1,0 +1,47 @@
+#apps {
+    width: 100%;
+    height: 800x;
+    background-color: blueviolet;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#games {
+    width: 100%;
+    height: 800x;
+    background-color: hotpink;
+}
+
+img {
+    transition: transform .2S;
+}
+
+img:hover {
+    transform: scale(0.9)
+}
+body{
+    text-align: center;
+}
+h1{
+    font-size: 100;
+    font-family: fantasy;
+    font-weight: 300;
+}
+#mycarousel{
+    background-color: red;
+}
+#mycarousel img{
+    height: 300px;
+    margin-top: 35px;
+}
+.carousel-inner p{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size:20px;
+}
